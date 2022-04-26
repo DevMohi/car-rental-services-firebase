@@ -22,6 +22,7 @@ const Register = () => {
     if (loading || updating) {
         return <Loading></Loading>
     }
+    
     const handleRegister = async (event) => {
         event.preventDefault();
         const name = event.target.name.value;
